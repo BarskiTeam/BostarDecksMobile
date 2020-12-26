@@ -1,0 +1,8 @@
+#!/bin/bash
+
+alias gbr='git branch'
+#alias gch='git checkout'
+git config --global alias.ch 'checkout' 
+
+git config --global alias.chb 'checkout -b' 
+
