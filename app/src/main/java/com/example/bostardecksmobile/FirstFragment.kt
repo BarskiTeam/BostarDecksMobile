@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.fragment_first.*
 
@@ -30,9 +31,10 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
-       tip_button.setOnClickListener{
-            val toast_test = Toast.makeText(context, getString(R.string.tip_text), Toast.LENGTH_LONG)
-            toast_test.show()
+       tip_button.setOnClickListener {
+           val toast_test = Toast.makeText(context, getString(R.string.tip_text), Toast.LENGTH_LONG)
+           toast_test.show()
+           tip_text_textview.visibility = View.VISIBLE
        }
     }
 }
