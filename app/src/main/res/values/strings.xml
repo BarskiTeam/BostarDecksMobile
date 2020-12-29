@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="averse_label">Averse</string>
+    <string name="averse_text">Sagen</string>
+    <string name="tip_label">Tip</string>
+    <string name="tip_text">monachijska saga przemawia do tłumu"</string>
+    <string name="reverse_label">Reverse</string>
+    <string name="reverse_text">Mówić</string>
 </resources>
